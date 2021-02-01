@@ -142,4 +142,4 @@ inline int64_t stride(const Tensor& tensor, int64_t dim) {
   return tensor.stride(dim);
 }
 
-}
+} // namespace at
