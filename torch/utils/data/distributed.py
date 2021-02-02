@@ -9,7 +9,7 @@ import torch.distributed as dist
 T_co = TypeVar('T_co', covariant=True)
 
 
-class DistributedSampler(Sampler[T_co]):
+class DistributedSampler(Sampler):
     r"""Sampler that restricts data loading to a subset of the dataset.
 
     It is especially useful in conjunction with
